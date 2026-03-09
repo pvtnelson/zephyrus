@@ -34,7 +34,6 @@ Hosting on homelab saves costs but doesn't directly demonstrate cloud provider s
 - `GET /tasks/{id}` — check task status and result
 - `GET /tasks` — list tasks with filtering
 - `GET /health` — readiness/liveness probes
-- WebSocket or SSE endpoint for real-time status updates
 
 ### Data Layer
 - **PostgreSQL 16** — task metadata, status, results (managed via Terraform)

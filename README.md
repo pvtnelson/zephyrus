@@ -7,7 +7,7 @@ Scalable async task processing API — accepts resource-intensive jobs via a fas
 3-tier async task processing system on self-hosted Kubernetes:
 
 ```
-Client → FastAPI (REST + WebSocket) → Redis Queue → Celery Workers
+Client → FastAPI (REST API) → Redis Queue → Celery Workers
                     ↕                                     ↕
                PostgreSQL                            Task Results
 ```
